@@ -1,0 +1,17 @@
+{
+  "name": "alexa",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "brianfit <brianfit58@gmail.com>",
+  "main": "f/main/index.js",
+  "dependencies": {
+    "lib": "^2.0.0"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "brianfit/alexa",
+    "defaultFunction": "main",
+    "timeout": 10000,
+    "publish": false
+  }
+}
